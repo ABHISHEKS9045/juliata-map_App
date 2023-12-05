@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".screens.TermsConditions_Activity">
+
+
+    <ImageView
+        android:id="@+id/back_btnTC"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/shape"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terms and Conditions"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textFontWeight="900"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="JULIETA CUSTOMER TERMS and \nCONDITIONS"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textFontWeight="800"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="100dp"
+            android:orientation="horizontal">
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_subtitle_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="IMPORTANT:
+
+ \n\nTHESE TERMS AND CONDITIONS (“Conditions”) DEFINE THE BASIS UPON WHICH GETT WILL PROVIDE YOU WITH ACCESS TO THE GETT MOBILE APPLICATION PLATFORM, PURSUANT TO WHICH YOU WILL BE ABLE TO REQUEST CERTAIN TRANSPORTATION SERVICES FROM THIRD PARTY DRIVERS BY PLACING ORDERS THROUGH GETT’S MOBILE APPLICATION PLATFORM. THESE CONDITIONS (TOGETHER WITH THE DOCUMENTS REFERRED TO HEREIN) SET OUT THE TERMS OF USE ON WHICH YOU MAY, AS A CUSTOMER, USE THE APP AND REQUEST TRANSPORTATION SERVICES. BY USING THE APP AND TICKING THE ACCEPTANCE BOX, YOU INDICATE THAT YOU ACCEPT THESE TERMS OF USE WHICH APPLY, AMONG OTHER THINGS, TO ALL SERVICES HEREINUNDER TO BE RENDERED TO OR BY YOU VIA THE APP WITHIN THE UK AND THAT YOU AGREE TO ABIDE BY THEM. USE THE APP AND REQUEST TRANSPORTATION SERVICES. BY USING THE APP AND TICKING THE ACCEPTANCE BOX, YOU INDICATE THAT YOU ACCEPT THESE TERMS OF USE WHICH APPLY, AMONG OTHER THINGS, TO ALL SERVICES HEREINUNDER TO BE RENDERED TO OR BY YOU VIA THE APP WITHIN THE UK AND THAT YOU AGREE TO ABIDE BY THEM. "
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </androidx.core.widget.NestedScrollView>
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/androidCheckBoxTC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="60dp"
+            android:checked="false"
+            android:text="I agree to the Terms and Conditions."
+            android:textColor="#655AF9"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/finish_btnTC"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/finish"
+          android:textStyle="bold"
+          android:textColor="@color/white"
+          app:layout_constraintBottom_toBottomOf="@+id/finish_btnTC"
+          app:layout_constraintEnd_toEndOf="@+id/finish_btnTC"
+          app:layout_constraintStart_toStartOf="@+id/finish_btnTC"
+          app:layout_constraintTop_toTopOf="@+id/finish_btnTC"
+          android:textSize="19sp">
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

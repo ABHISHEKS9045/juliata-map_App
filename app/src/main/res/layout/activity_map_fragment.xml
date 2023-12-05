@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:keepScreenOn="true"
+    tools:context=".map_fragment">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/instructionTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:visibility="gone"
+        android:layout_marginTop="80dp"
+
+        android:padding="15dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/map">
+
+    </ImageView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/instructionTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/btn1" />
+
+    <TextView
+        android:id="@+id/btnCh"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/rectangle"
+        android:gravity="center"
+        android:text="cambiar dirección"
+        android:textColor="@color/white"
+        android:textSize="29dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/btn1"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/inicio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/btn2"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/soporte"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn3"
+        app:layout_constraintStart_toEndOf="@+id/btn1" />
+
+
+    <ImageView
+        android:id="@+id/btn3"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/descuentos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/puntos"
+        app:layout_constraintStart_toEndOf="@+id/btn2" />
+
+
+    <ImageView
+        android:id="@+id/puntos"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/puntos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/alertBtn"
+        app:layout_constraintStart_toEndOf="@+id/btn3" />
+
+
+    <ImageView
+        android:id="@+id/alertBtn"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="20dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/alerta"
+        app:layout_constraintStart_toEndOf="@+id/puntos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutVertical"
+        android:layout_width="0dp"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/alertBtn"
+        app:layout_constraintEnd_toEndOf="@id/alertBtn"
+        app:layout_constraintStart_toStartOf="@+id/alertBtn">
+
+        <ImageView
+            android:id="@+id/opt1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FF0535"
+            android:tag="Road Collapse Happens"
+            android:scaleType="centerInside"
+            android:src="@drawable/alerta1">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/opt2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#B8D20A"
+            android:tag="Road Construction Going On"
+            android:layout_marginTop="5dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/via2">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/opt3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:scaleType="centerInside"
+            android:tag="Accident"
+            android:background="#F77605"
+            android:src="@drawable/accidente">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/opt4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:tag="Police"
+            android:background="#13A8FE"
+            android:scaleType="centerInside"
+            android:src="@drawable/policia">
+
+        </ImageView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

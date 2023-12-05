@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/one"
+        android:icon="@drawable/alerta1"
+        android:title="" />
+    <item
+        android:id="@+id/two"
+        android:icon="@drawable/via2"
+        android:title=""/>
+    <item
+        android:id="@+id/three"
+        android:icon="@drawable/accidente"
+        android:title=""/>
+
+
+    <item
+        android:id="@+id/four"
+        android:icon="@drawable/policia"
+
+        android:title=""/>
+</menu>

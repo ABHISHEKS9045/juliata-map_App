@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:keepScreenOn="true"
+    android:layout_width="wrap_content"
+android:gravity="right"
+    android:layout_marginTop="400dp"
+    android:layout_gravity="end"
+    android:layout_marginRight="40dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Alret_popup">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/alerta1"
+        android:padding="10dp"
+        android:background="@color/red"
+        >
+
+    </ImageView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/via2"
+        android:padding="10dp"
+        android:background="@color/green"
+        >
+
+    </ImageView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/accidente"
+        android:padding="10dp"
+        android:background="@color/org"
+        >
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/policia"
+        android:padding="10dp"
+        android:background="@color/darkblu"
+        >
+
+    </ImageView>
+
+
+</LinearLayout>

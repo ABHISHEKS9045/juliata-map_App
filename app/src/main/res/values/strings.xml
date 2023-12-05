@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">map_UI</string>
+    <string name="google_maps_key" />
+    <string name="maps_api_key" translatable="false">AIzaSyBIY6ZYkznWr8DJ-1xF-KYI2Nv8WDgh8RE</string>
+    <string name="enter_your_mobile_no">Enter your mobile no:</string>
+    <string name="enter_your_mobile_number">Enter your mobile number:</string>
+    <string name="_56_9">+56</string>
+    <string name="enter_the_code_we_sent_to_your_mobile">Enter the code we sent to your mobile:</string>
+    <string name="name">Name*</string>
+    <string name="enter_your_name">Enter your name*</string>
+    <string name="surname">Surname*</string>
+    <string name="birth_date_optional">Birth date(optional)</string>
+    <string name="type_of_company_optional">Type of Work*</string>
+    <string name="password">Password</string>
+    <string name="password_confirmation">Password Confirmation</string>
+    <string name="recovery_email">Recovery Email</string>
+    <string name="upload_your_picture_optional">Upload your picture(optional)</string>
+    <string name="load_from_your_library">Load from your library</string>
+    <string name="this_is_how_you_would_look">This is how you would look</string>
+    <string name="finish">Finish</string>
+    <string name="i_agree_to_the_terms_of_services_and_nprivacy_policy">I agree to the Terms of Services and \nPrivacy Policy.</string>
+    <string name="type_of_truck_optional">Type of truck(Optional)</string>
+    <string name="type_of_license_optional">Type of license(Optional)</string>
+    <string name="nickname_optional">Nickname(Optional)</string>
+    <string name="i_agree_to_the_terms_and_conditions">I agree to the Terms and Conditions.</string>
+    <string name="julieta_customer_terms_and_nconditions">JULIETA CUSTOMER TERMS and \nCONDITIONS</string>
+    <string name="empty_directory">Empty Directory</string>
+    <string name="storage_removed">Storage was removed or unmounted.</string>
+    <string name="choose_file">Select a file</string>
+    <string name="error_selecting_file">Error selecting File</string>
+    <string name="internal_storage">Internal storage</string>
+</resources>

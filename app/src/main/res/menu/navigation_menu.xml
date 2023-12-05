@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/inicio"
+        android:title="Inicio" />
+
+    <item
+        android:id="@+id/navigation_Support"
+        android:icon="@drawable/soporte"
+        android:title="Soporte" />
+
+    <item
+        android:id="@+id/Discount"
+        android:icon="@drawable/descuentos"
+        android:title="Descuentos" />
+
+
+
+    <item
+        android:id="@+id/puntos"
+        android:icon="@drawable/puntos"
+        android:title="Puntos" />
+
+    <item
+        android:id="@id/navigation_Support"
+        android:icon="@drawable/alerta"
+        android:title="Alerta" />
+</menu>

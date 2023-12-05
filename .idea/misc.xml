@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/final Mactosys/fullFinal/map_UI/app/src/main/res/layout/activity_alret_popup.xml" value="0.19895833333333332" />
+        <entry key="..\:/final Mactosys/fullFinal/map_UI/app/src/main/res/layout/dialog_deck.xml" value="0.19895833333333332" />
+        <entry key="..\:/final Mactosys/fullFinal/map_UI/app/src/main/res/layout/dialog_handover.xml" value="0.19895833333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
